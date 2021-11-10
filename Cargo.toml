@@ -1,10 +1,26 @@
 [package]
 name = "my-fruitful-identity-ui"
 version = "0.1.0"
+authors = ["Kevin Park"]
 edition = "2021"
-
+description = "Web application for the Fruitful Metaverse. Your Fruitful base character stats will be aggregated here."
+documentation = "Under review, will publicize soon"
+readme = "README.md"
+homepage = "https://fruitful.gg"
+repository = "https://github.com/kevin-fruitful/my-fruitful-identity-ui"
+license = "MIT"
+keywords = [
+    "metaverse",
+    "defi",
+    "nfts",
+    "social-tech",
+    "web3",
+    "blockchain-technology",
+    "social",
+    "rust",
+]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rocket = "0.4.10"
+rocket = "0.5.0-rc.1"
 web3 = "0.17.0"
